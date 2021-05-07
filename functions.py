@@ -2,6 +2,7 @@ import requests
 import re
 
 
+
 def get_file(url):
     """ reads file from url"""
     response = requests.get(url)
@@ -41,6 +42,14 @@ def display_average_steps(file_lines):
     return steps
 
 
+def display_menu(options=[]):
+    """ display program menu"""
+
+    menu = "\nPROGRAM MENU:"
+    for count, option in enumerate(options, 1):
+        menu += f"\n{count}) {option}"
+
+    return menu
 
 # if __name__ == "__main__":
 #     print(display_average_steps())
