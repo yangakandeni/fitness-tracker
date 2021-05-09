@@ -1,6 +1,6 @@
 # Fitness Tracker (console app)
 
-## This is a python console app for an assignment
+## This is a python program for a fitness tracker app
 
 ### RUN PROGRAM
 
